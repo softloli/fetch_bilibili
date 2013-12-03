@@ -1,7 +1,7 @@
 <?php
 include_once("curl.php");
 $curl = new curl();
-$link = mysql_connect('localhost','root','h7m5kb49t8');
+$link = mysql_connect('localhost','root','');
 !$link && die('数据库连接失败！'.mysql_error());
 mysql_select_db('bilibili',$link);
 mysql_query("set charset utf8");
